@@ -1,11 +1,11 @@
 // Dark Mode Toggle
-const toggleBtn = document.getElementById("darkModeToggle");
+/*const toggleBtn = document.getElementById("darkModeToggle");
 
 toggleBtn.addEventListener("click", () => {
     const body = document.body;
     body.classList.toggle("dark-mode");
     toggleBtn.textContent = body.classList.contains("dark-mode") ? "☀️" : "🌙";
-});
+});*/
 
 // Typing Animation
 window.onload = () => {
@@ -31,3 +31,4 @@ window.onload = () => {
 
     typeWriter();
 };
+
